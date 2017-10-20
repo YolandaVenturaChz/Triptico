@@ -1,0 +1,113 @@
+/*Cabezera de el triptico*/
+.header{
+  background: #ffc107;
+  text-align: center;
+  width: 536px;
+  border: 1px solid black;
+  height: 31px;
+}
+/*Para dale negrita y tamaño a la letra*/
+.header p {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0px;
+}
+/*Formamos las 3 colummas del triptico*/
+.body {
+  position: relative;
+  width: 535px;
+  height: 421px;
+  border: 1px solid black;
+}
+
+.left {
+  width: 147px;
+  display: inline-block;
+  height: 421px;
+  box-sizing: border-box;
+  font-size: 14px;
+  position: absolute;
+  border-right: 1px solid black;
+}
+
+.left p {
+  padding: 54px 20px 0px 20px;
+  text-align: justify;
+  margin: 0px 0px 10px 0px;
+}
+.bold {
+  font-weight: bold;
+  box-sizing: border-box;
+  display: inline-block;
+  text-align: center;
+  position: absolute;
+  left: 58px;
+  top: 20px;
+  font-size: 16px;
+}
+
+.right {
+  display: inline-block;
+  width: 149px;
+  height: 421px;
+  box-sizing: border-box;
+  font-size: 14px;
+  position: relative;
+  position: absolute;
+  right: 0px;
+  border-left: 1px solid black;
+}
+
+.right p {
+  padding: 54px 20px 0px 20px;
+  text-align: justify;
+}
+
+.right :last-child {
+  padding: 13px;
+}
+
+.center {
+  display: inline-block;
+  box-sizing: border-box;
+  font-size: 14px;
+  position: relative;
+  width: 243px;
+  height: 421px;
+  position: absolute;
+  left: 147px;
+  line-height: 19px;
+}
+
+.center p {
+  padding: 20px 40px 0px 40px;
+  text-align: justify;
+}
+
+#monopoly {
+  font-weight: bold;
+  box-sizing: border-box;
+  display: inline-block;
+  text-align: center;
+  position: absolute;
+  left: 77px;
+  top: 50px;
+  font-size: 20px;
+}
+#two {
+  position: absolute;
+  top: 70px;
+}
+/*Pie del triptico*/
+.footer {
+  background: #ffc107;
+  text-align: center;
+  width: 536px;
+  border: 1px solid black;
+  height: 25px;
+}
+.footer p{
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0px;
+}
